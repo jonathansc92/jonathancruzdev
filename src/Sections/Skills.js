@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillsComponent from '../components/SkillsComponent';
 
 class Skills extends React.Component {
     render() {
@@ -6,68 +7,23 @@ class Skills extends React.Component {
         <div>
             <section id="skills" className="skills section-bg">
                 <div className="container">
-
                     <div className="section-title">
-                    <h2>Skills</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <h2>Skills</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
 
                     <div className="row skills-content">
-
-                    <div className="col-lg-6" data-aos="fade-up">
-
-                        <div className="progress">
-                        <span className="skill">HTML <i className="val">100%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" style={{width: '100%'}} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="col-lg-6" data-aos="fade-up">
+                            <SkillsComponent skill="PHP" progress="90" />
+                            <SkillsComponent skill="VueJS" progress="80" />
+                            <SkillsComponent skill="React JS" progress="50" />
                         </div>
+                        <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <SkillsComponent skill="NodeJS" progress="50" />
                         </div>
-
-                        <div className="progress">
-                        <span className="skill">CSS <i className="val">90%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                        <div className="progress">
-                        <span className="skill">JavaScript <i className="val">75%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
                     </div>
-
-                    <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-                        <div className="progress">
-                        <span className="skill">PHP <i className="val">80%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                        <div className="progress">
-                        <span className="skill">WordPress/CMS <i className="val">90%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                        <div className="progress">
-                        <span className="skill">Photoshop <i className="val">55%</i></span>
-                        <div className="progress-bar-wrap">
-                            <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </div>
-
-                    </div>
-
-                    </div>
-
                 </div>
-                </section>
+            </section>
         </div>
       );
     }
