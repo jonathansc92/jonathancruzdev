@@ -1,9 +1,9 @@
-import React from 'react';
-import SkillsComponent from '../components/SkillsComponent';
+import React from 'react'
+import SkillsComponent from '../components/SkillsComponent'
 
 class Skills extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
         <div>
             <section id="skills" className="skills section-bg">
                 <div className="container">
@@ -25,9 +25,8 @@ class Skills extends React.Component {
                 </div>
             </section>
         </div>
-      );
-    }
+    )
+  }
 }
 
-export default Skills;
-
+export default Skills

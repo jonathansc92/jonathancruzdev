@@ -1,8 +1,8 @@
-Typedimport React from 'react';
+import React from 'react'
 
 class Footer extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
         <>
           <footer id="footer">
             <div className="container">
@@ -15,9 +15,8 @@ class Footer extends React.Component {
             </div>
           </footer>
         </>
-      );
-    }
+    )
+  }
 }
 
-export default Footer;
-
+export default Footer
