@@ -5,10 +5,11 @@
 * License: https://bootstrapmade.com/license/
 */
 !(function($) {
-  "use strict";
-
+  
+console.log("entrou")
   // Hero typed
   if ($('.typed').length) {
+    console.log('tem')
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
     new Typed('.typed', {

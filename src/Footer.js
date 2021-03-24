@@ -1,20 +1,20 @@
-import React from 'react';
+Typedimport React from 'react';
 
 class Footer extends React.Component {
     render() {
       return (
-        <div>
-              <footer id="footer">
-    <div className="container">
-      <div className="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div className="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer>
-        </div>
+        <>
+          <footer id="footer">
+            <div className="container">
+              <div className="copyright">
+                &copy; Copyright <strong><span>iPortfolio</span></strong>
+              </div>
+              <div className="credits">
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </footer>
+        </>
       );
     }
 }

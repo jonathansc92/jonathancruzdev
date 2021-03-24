@@ -3,7 +3,7 @@ import React from 'react';
 class Resume extends React.Component {
     render() {
       return (
-        <div>
+        <>
           <section id="resume" className="resume">
       <div className="container">
 
@@ -68,7 +68,7 @@ class Resume extends React.Component {
 
       </div>
     </section>
-        </div>
+        </>
       );
     }
 }

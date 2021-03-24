@@ -4,7 +4,7 @@ import profileImg from './img/profile-img.jpg';
 class Header extends React.Component {
     render() {
       return (
-        <div>
+        <>
             <header id="header">
                 <div className="d-flex flex-column">
                     <div className="profile">
@@ -30,7 +30,7 @@ class Header extends React.Component {
                     </nav>
                 </div>
             </header>
-        </div>
+        </>
       );
     }
 }

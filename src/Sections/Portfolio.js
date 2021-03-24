@@ -4,7 +4,7 @@ import portfolio1 from '../img/portfolio/portfolio-1.jpg';
 class Portfolio extends React.Component {
     render() {
       return (
-        <div>
+        <>
           <section id="portfolio" className="portfolio section-bg">
       <div className="container">
 
@@ -40,7 +40,7 @@ class Portfolio extends React.Component {
 
       </div>
     </section>
-        </div>
+        </>
       );
     }
 }
