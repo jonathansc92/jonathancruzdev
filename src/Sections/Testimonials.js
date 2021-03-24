@@ -1,13 +1,13 @@
-import React from 'react';
-import testmonial1 from '../img/testimonials/testimonials-1.jpg';
-import testmonial2 from '../img/testimonials/testimonials-2.jpg';
-import testmonial3 from '../img/testimonials/testimonials-3.jpg';
-import testmonial4 from '../img/testimonials/testimonials-4.jpg';
-import testmonial5 from '../img/testimonials/testimonials-5.jpg';
+import React from 'react'
+import testmonial1 from '../img/testimonials/testimonials-1.jpg'
+import testmonial2 from '../img/testimonials/testimonials-2.jpg'
+import testmonial3 from '../img/testimonials/testimonials-3.jpg'
+import testmonial4 from '../img/testimonials/testimonials-4.jpg'
+import testmonial5 from '../img/testimonials/testimonials-5.jpg'
 
 class Testimonials extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
          <>
              <section id="testimonials" className="testimonials section-bg">
       <div className="container">
@@ -79,9 +79,8 @@ class Testimonials extends React.Component {
       </div>
     </section>
         </>
-      );
-    }
+    )
+  }
 }
 
-export default Testimonials;
-
+export default Testimonials

@@ -4,7 +4,7 @@ import profileImg from '../img/profile-img.jpg';
 class About extends React.Component {
     render() {
       return (
-        <div>
+                    <div>
           <section id="about" className="about">
             <div className="container">
 
