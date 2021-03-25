@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 class Facts extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
         <div>
           <section id="facts" className="facts">
             <div className="container">
@@ -51,9 +51,8 @@ class Facts extends React.Component {
                 </div>
             </section>
         </div>
-      );
-    }
+    )
+  }
 }
 
-export default Facts;
-
+export default Facts

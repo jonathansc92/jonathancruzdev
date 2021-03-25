@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 class Resume extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
         <>
           <section id="resume" className="resume">
       <div className="container">
@@ -69,9 +69,8 @@ class Resume extends React.Component {
       </div>
     </section>
         </>
-      );
-    }
+    )
+  }
 }
 
-export default Resume;
-
+export default Resume

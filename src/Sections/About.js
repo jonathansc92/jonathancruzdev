@@ -1,9 +1,9 @@
-import React from 'react';
-import profileImg from '../img/profile-img.jpg';
+import React from 'react'
+import profileImg from '../img/profile-img.jpg'
 
 class About extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
                     <div>
           <section id="about" className="about">
             <div className="container">
@@ -47,12 +47,11 @@ class About extends React.Component {
                         </p>
                     </div>
                 </div>
-            </div>    
+            </div>
         </section>
         </div>
-      );
-    }
+    )
+  }
 }
 
-export default About;
-
+export default About

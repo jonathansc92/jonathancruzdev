@@ -1,9 +1,9 @@
-import React from 'react';
-import profileImg from './img/profile-img.jpg';
+import React from 'react'
+import profileImg from './img/profile-img.jpg'
 
 class Header extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
         <>
             <header id="header">
                 <div className="d-flex flex-column">
@@ -31,9 +31,8 @@ class Header extends React.Component {
                 </div>
             </header>
         </>
-      );
-    }
+    )
+  }
 }
 
-export default Header;
-
+export default Header

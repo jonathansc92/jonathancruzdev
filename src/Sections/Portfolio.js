@@ -1,9 +1,9 @@
-import React from 'react';
-import portfolio1 from '../img/portfolio/portfolio-1.jpg';
+import React from 'react'
+import portfolio1 from '../img/portfolio/portfolio-1.jpg'
 
 class Portfolio extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
         <>
           <section id="portfolio" className="portfolio section-bg">
       <div className="container">
@@ -41,9 +41,8 @@ class Portfolio extends React.Component {
       </div>
     </section>
         </>
-      );
-    }
+    )
+  }
 }
 
-export default Portfolio;
-
+export default Portfolio

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class SkillsComponent extends React.Component {
   constructor (props) {
@@ -18,6 +19,11 @@ class SkillsComponent extends React.Component {
         </div>
     )
   }
+}
+
+SkillsComponent.propTypes = {
+  skill: PropTypes.string.isRequired,
+  progress: PropTypes.string.isRequired
 }
 
 export default SkillsComponent

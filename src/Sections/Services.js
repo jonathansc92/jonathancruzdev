@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 class Services extends React.Component {
-    render() {
-      return (
+  render () {
+    return (
         <div>
           <section id="services" className="services">
       <div className="container">
@@ -48,9 +48,8 @@ class Services extends React.Component {
       </div>
     </section>
         </div>
-      );
-    }
+    )
+  }
 }
 
-export default Services;
-
+export default Services
