@@ -1,12 +1,10 @@
 import Header from './Header'
 import Hero from './Sections/Hero'
 import About from './Sections/About'
-import Facts from './Sections/Facts'
 import Skills from './Sections/Skills'
 import Resume from './Sections/Resume'
 import Portfolio from './Sections/Portfolio'
-import Services from './Sections/Services'
-import Testimonials from './Sections/Testimonials'
+// import Testimonials from './Sections/Testimonials'
 // import Contact from './Sections/Contact';
 import Footer from './Footer'
 import React from 'react'
@@ -15,58 +13,59 @@ import {
   setTranslations,
   setDefaultLanguage,
   setLanguageCookie,
+  setLanguage,
   translate
 } from 'react-switch-lang'
 import en from './assets/locale/en.json'
-import th from './assets/locale/pt-Br.json'
+import ptBr from './assets/locale/pt-Br.json'
+import PropTypes from 'prop-types'
 const queryString = require('query-string')
 
-// Do this two lines only when setting up the application
-setTranslations({ en, th })
+setTranslations({ en, ptBr })
 setDefaultLanguage('en')
 
-// If you want to remember selected language
 setLanguageCookie()
 
 class App extends React.Component {
   constructor (props) {
     super(props)
-    this.state = { name: '' }
-    // const parsed = queryString.parse(location.search)
+    this.state = { t: {} }
 
-    // if (parsed.language === 'en') {
-    //   console.log('oi')
-    // } else {
-    //   this.state.name = 'Pt'
-    // }
+    const parsed = queryString.parse(location.search)
+
+    this.handleSetLanguage(parsed.language ? parsed.language : 'en')
+
+    console.log(parsed.language)
   }
 
   componentDidMount () {
     $.getScript(process.env.PUBLIC_URL + '/assets/js/main.js')
-    const parsed = queryString.parse(location.search)
-    console.log(parsed)
-    console.log(location.search)
+  }
+
+  handleSetLanguage (key) {
+    setLanguage(key)
   }
 
   render () {
     const { t } = this.props
     return (
       <>
-      <Header />
-      <Hero name={t('name')} iam={t('hero.iam')} />
+      <Header name={t('name')} menu={t} />
+      <Hero name={t('name')} iam={t('hero.iam')} topics={t('hero.topics')} />
       <main id="main">
-        <About />
-        <Facts />
+        <About about={t} title={t('menu.about')}/>
         <Skills />
-        <Resume />
+        <Resume resume={t} />
         <Portfolio />
-        <Services />
-        <Testimonials />
       </main>
       <Footer />
       </>
     )
   }
+}
+
+App.propTypes = {
+  t: PropTypes.object.isRequired
 }
 
 export default translate(App)

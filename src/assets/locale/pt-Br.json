@@ -1,4 +1,37 @@
 {
-    "hello.label": "Oi",
-    "thankyou.label": "Thank you"
+    "menu": {
+        "home": "Ínicio",
+        "about": "Sobre mim",
+        "skills": "Habilidades",
+        "resume": "Currículo",
+        "portfolio": "Portfolio"
+    },
+    "general": {
+        "email": "jonathansc92@gmail.com"
+    },
+    "name": "Jonathan Cruz",
+    "hero": {
+        "iam": "Eu sou",
+        "topics": "Desenvolvedor Web, Freelancer"
+    },
+    "about": {
+        "title": "About",
+        "titleAge": "Age",
+        "description": "Hi, my name is Jonathan and i'm Full Stack developer, i have 4 years experience using technologies as PHP, React, React-Native, Javascript, VueJS. I have experience with teams work, I like to work with teams, because I learn new techniques with them. I love my work and i’m always looking forward to learn new technologies with potential to create new products with my skills and team. In my free time, i usually go to the gym or i’m studying a new language or a new technologie. I developed this web site using PHP with Laravel as a Framework.I also have other projects in others technologies (PHP, React, React Native, VueJS, Javascript, CSS, HTML) at my <a href='https://github.com/jonathansc92' target='_blank'>github</a>.",
+        "role": "Web Developer"
+    },
+    "resume": {
+        "education": {
+            "undergraduate": {
+                "title": "Software Engineer",
+                "school": "Uniasselvi, Porto Alegre - RS, Brazil",
+                "period": "2015 - 2018"
+            },
+            "graduate": {
+                "title": "MBA - Business Technology: AI, Data Scienc and Big Data",
+                "school": "PUCRS, Porto Alegre - RS, Brazil",
+                "period": "2019 - 2020"
+            }
+        }
+    }
 }
