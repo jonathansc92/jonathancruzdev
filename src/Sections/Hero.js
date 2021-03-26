@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 class Hero extends React.Component {
   constructor (props) {
     super(props)
@@ -15,7 +14,7 @@ class Hero extends React.Component {
                 <h1>{this.state.name}</h1>
                 <p>{this.state.iam} <span className="typed" data-typed-items={this.state.topics}></span></p>
               </div>
-            </section>
+          </section>
         </>
     )
   }

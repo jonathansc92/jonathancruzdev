@@ -7,10 +7,10 @@ class Footer extends React.Component {
           <footer id="footer">
             <div className="container">
               <div className="copyright">
-                &copy; Copyright <strong><span>iPortfolio</span></strong>
+                &copy; Copyright <strong><span>Jonathan Cruz</span></strong>
               </div>
               <div className="credits">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                <a href="mailto:jonathansc92@gmail.com?subject=Website%20again">jonathansc92@gmail.com</a>
               </div>
             </div>
           </footer>

@@ -10,11 +10,9 @@ class Header extends React.Component {
       about: this.props.menu('menu.about'),
       skills: this.props.menu('menu.skills'),
       home: this.props.menu('menu.home'),
-      resume: this.props.menu('menu.resume'),
+      resume: this.props.menu('menu.resume.title'),
       portfolio: this.props.menu('menu.portfolio')
     }
-
-    console.log(typeof this.state.about)
   }
 
   render () {
@@ -26,10 +24,10 @@ class Header extends React.Component {
                         <img src={profileImg} alt="" className="img-fluid rounded-circle" />
                         <h1 className="text-light"><a href="index.html">{this.state.name}</a></h1>
                         <div className="social-links mt-3 text-center">
-                        <a href="https://pt-br.facebook.com/" className="facebook"><i className="bx bxl-facebook"></i></a>
-                        <a href="https://pt-br.facebook.com/" className="instagram"><i className="bx bxl-instagram"></i></a>
-                        <a href="https://pt-br.facebook.com/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-                        <a href="https://pt-br.facebook.com/" className="linkedin"><i className="bx bxl-github"></i></a>
+                        <a href="https://web.facebook.com/Jonathanscruz92" className="facebook" target="_blank" rel="noreferrer"><i className="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/jonathanscruzdev/" className="instagram" target="_blank" rel="noreferrer"><i className="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jonathancruz/" className="linkedin" target="_blank" rel="noreferrer"><i className="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/jonathansc92/" className="github" target="_blank" rel="noreferrer"><i className="bx bxl-github"></i></a>
                         </div>
                     </div>
                     <nav id="navbar" className="nav-menu navbar">

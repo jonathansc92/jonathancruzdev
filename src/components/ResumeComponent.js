@@ -4,7 +4,12 @@ import PropTypes from 'prop-types'
 class ResumeComponent extends React.Component {
   constructor (props) {
     super(props)
-    this.state = { title: this.props.title, period: this.props.period, school: this.props.school }
+    this.state = {
+      title: this.props.title,
+      period: this.props.period,
+      info: this.props.info ? this.props.info : '',
+      description: this.props.description ? this.props.description : ''
+    }
   }
 
   render () {
@@ -13,7 +18,8 @@ class ResumeComponent extends React.Component {
           <div className="resume-item">
             <h4>{this.state.title}</h4>
             <h5>{this.state.period}</h5>
-            <p><em>{this.state.school}</em></p>
+            <p><em>{this.state.info}</em></p>
+            <p>{this.state.description}</p>
           </div>
         </>
     )
@@ -23,7 +29,8 @@ class ResumeComponent extends React.Component {
 ResumeComponent.propTypes = {
   title: PropTypes.string.isRequired,
   period: PropTypes.string.isRequired,
-  school: PropTypes.string.isRequired
+  info: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
 }
 
 export default ResumeComponent

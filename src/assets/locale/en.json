@@ -3,7 +3,11 @@
         "home": "Home",
         "about": "About",
         "skills": "Skills",
-        "resume": "Resume",
+        "resume": {
+            "title": "Resume",
+            "experience": "Experience Professional",
+            "education": "Education"
+        },
         "portfolio": "Portfolio"
     },
     "general": {
@@ -17,7 +21,9 @@
     "about": {
         "title": "About",
         "titleAge": "Age",
-        "description": "Hi, my name is Jonathan and i'm Full Stack developer, i have 4 years experience using technologies as PHP, React, React-Native, Javascript, VueJS. I have experience with teams work, I like to work with teams, because I learn new techniques with them. I love my work and i’m always looking forward to learn new technologies with potential to create new products with my skills and team. In my free time, i usually go to the gym or i’m studying a new language or a new technologie. I developed this web site using PHP with Laravel as a Framework.I also have other projects in others technologies (PHP, React, React Native, VueJS, Javascript, CSS, HTML) at my <a href='https://github.com/jonathansc92' target='_blank'>github</a>.",
+        "titleCity": "City",
+        "city": "Porto Alegre - RS, Brazil",
+        "description": "Hi there, my name is Jonathan and i'm <b>Full Stack developer</b>, i have more than 4 years experience in development. I do always exploring news technologies, exploring yours potentials in development a products. I'm a person that accept always chalengens, exploring quality of the work. In my free time, i usually go to the gym or i’m studying a new language or a new technologie. I did develope this web site using <b>React</b>. If you wish see my codes, I do invite you visit my <a href='https://github.com/jonathansc92' target='_blank'>github</a>.",
         "role": "Web Developer"
     },
     "resume": {
@@ -32,6 +38,58 @@
                 "school": "PUCRS, Porto Alegre - RS, Brazil",
                 "period": "2019 - 2020"
             }
+        },
+        "experiences": {
+            "freelancers": {
+                "title": "Freelancers",
+                "fenix": {
+                    "company": "Fênix Vestibulares, Porto Alegre - RS, Brazil",
+                    "position": "Frontend Developer",
+                    "period": "2020 - 2020",
+                    "description": "Development web site using PHP (Laravel) and Javascript."
+                },
+                "popcorn": {
+                    "company": "POPCORN, Lucas do Rio Verde - MT, Brazil",
+                    "position": "Fullstack Developer",
+                    "period": "2020 - 2020",
+                    "description": "Developmen system using PHP (Laravel) and VueJS."
+                },
+                "growplus": {
+                    "company": "Grow+, Porto Alegre - RS, Brazil",
+                    "position": "Frontend Developer",
+                    "period": "2019 - 2020",
+                    "description": "Development system using VueJS."
+                }
+            },
+            "fullTime": {
+                "lyncas": {
+                    "company": "Lyncas, Jaraguá do Sul - SC, Brazil",
+                    "position": "Intermediate Developer",
+                    "period": "2021 - present",
+                    "description": "Development systems using PHP (Symfony), Angular, NodeJS, Git, MySQL, Docker."
+                },
+                "nofaro": {
+                    "company": "Nofaro, Porto Alegre - RS, Brazil",
+                    "position": "Intermediate Fullstack Developer",
+                    "period": "2021 - 2021",
+                    "description": "Development web sites and systems using PHP(Laravel), VueJS, code review, Git, MySQL, Docker."
+                },
+                "uol": {
+                    "company": "UolEdtech",
+                    "position": "Intermediate Software Engineer",
+                    "period": "2018 - 2021  ",
+                    "description": "Development web sites and systems using technologies like PHP(Laravel), VueJS, Angular, React Native, javascript, MySQL, Watson, Git, code review."
+                },
+                "uneworld": {
+                    "company": "Uneworld Viagens e Turismos, Porto Alegre - RS, Brazil",
+                    "position": "Junior Fullstack Developer",
+                    "period": "2015 - 2018",
+                    "description": "Development web site and system using PHP, framework Laravel, Javascript, PostgreSQL, Git."
+                }
+            }
         }
+    },
+    "portfolio": {
+        "all": "All"
     }
 }

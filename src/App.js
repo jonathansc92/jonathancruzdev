@@ -34,8 +34,6 @@ class App extends React.Component {
     const parsed = queryString.parse(location.search)
 
     this.handleSetLanguage(parsed.language ? parsed.language : 'en')
-
-    console.log(parsed.language)
   }
 
   componentDidMount () {
@@ -54,9 +52,9 @@ class App extends React.Component {
       <Hero name={t('name')} iam={t('hero.iam')} topics={t('hero.topics')} />
       <main id="main">
         <About about={t} title={t('menu.about')}/>
-        <Skills />
-        <Resume resume={t} />
-        <Portfolio />
+        <Skills title={t('menu.skills')} />
+        <Resume resume={t} titles={t} experiences={t('resume.experiences')} />
+        <Portfolio title={t('menu.portfolio')} all={t('portfolio.all')} />
       </main>
       <Footer />
       </>
