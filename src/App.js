@@ -19,7 +19,10 @@ import {
 import en from './assets/locale/en.json'
 import ptBr from './assets/locale/pt-Br.json'
 import PropTypes from 'prop-types'
+import ReactGA from 'react-ga'
 const queryString = require('query-string')
+ReactGA.initialize('UA-134537376-1')
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 setTranslations({ en, ptBr })
 setDefaultLanguage('en')
@@ -63,7 +66,7 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-  t: PropTypes.object.isRequired
+  t: PropTypes.func.isRequired
 }
 
 export default translate(App)

@@ -8,7 +8,7 @@ class ResumeComponent extends React.Component {
       title: this.props.title,
       period: this.props.period,
       info: this.props.info ? this.props.info : '',
-      description: this.props.description ? this.props.description : ''
+      description: this.props.description ? this.props.description : null
     }
   }
 
@@ -30,7 +30,7 @@ ResumeComponent.propTypes = {
   title: PropTypes.string.isRequired,
   period: PropTypes.string.isRequired,
   info: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  description: PropTypes.string
 }
 
 export default ResumeComponent
