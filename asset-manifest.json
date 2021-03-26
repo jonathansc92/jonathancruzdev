@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/jonathancruzdev/static/js/main.1facfd4a.chunk.js",
+    "main.js.map": "/jonathancruzdev/static/js/main.1facfd4a.chunk.js.map",
+    "runtime-main.js": "/jonathancruzdev/static/js/runtime-main.6ecd2380.js",
+    "runtime-main.js.map": "/jonathancruzdev/static/js/runtime-main.6ecd2380.js.map",
+    "static/js/2.3b9768de.chunk.js": "/jonathancruzdev/static/js/2.3b9768de.chunk.js",
+    "static/js/2.3b9768de.chunk.js.map": "/jonathancruzdev/static/js/2.3b9768de.chunk.js.map",
+    "index.html": "/jonathancruzdev/index.html",
+    "static/js/2.3b9768de.chunk.js.LICENSE.txt": "/jonathancruzdev/static/js/2.3b9768de.chunk.js.LICENSE.txt",
+    "static/media/api-php.6592ef8b.jpg": "/jonathancruzdev/static/media/api-php.6592ef8b.jpg",
+    "static/media/apibooks.a0710c55.jpg": "/jonathancruzdev/static/media/apibooks.a0710c55.jpg",
+    "static/media/apinode.fd6393f6.jpg": "/jonathancruzdev/static/media/apinode.fd6393f6.jpg",
+    "static/media/chat.dbfc4c7f.jpg": "/jonathancruzdev/static/media/chat.dbfc4c7f.jpg",
+    "static/media/fenix.070980dc.JPG": "/jonathancruzdev/static/media/fenix.070980dc.JPG",
+    "static/media/frontbooks.d9a7420b.jpg": "/jonathancruzdev/static/media/frontbooks.d9a7420b.jpg",
+    "static/media/profile-img.c0b32ec5.jpg": "/jonathancruzdev/static/media/profile-img.c0b32ec5.jpg",
+    "static/media/register-noticies.b86d7a97.jpg": "/jonathancruzdev/static/media/register-noticies.b86d7a97.jpg",
+    "static/media/website.4742f71e.JPG": "/jonathancruzdev/static/media/website.4742f71e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ecd2380.js",
+    "static/js/2.3b9768de.chunk.js",
+    "static/js/main.1facfd4a.chunk.js"
+  ]
+}
