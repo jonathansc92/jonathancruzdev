@@ -34,7 +34,7 @@
                 "period": "2015 - 2018"
             },
             "graduate": {
-                "title": "MBA - Business Technology: AI, Data Scienc and Big Data",
+                "title": "MBA - Business Technology: AI, Data Science and Big Data",
                 "school": "PUCRS, Porto Alegre - RS, Brazil",
                 "period": "2019 - 2020"
             }
@@ -52,7 +52,7 @@
                     "company": "POPCORN, Lucas do Rio Verde - MT, Brazil",
                     "position": "Fullstack Developer",
                     "period": "2020 - 2020",
-                    "description": "Developmen system using PHP (Laravel) and VueJS."
+                    "description": "Development system using PHP (Laravel) and VueJS."
                 },
                 "growplus": {
                     "company": "Grow+, Porto Alegre - RS, Brazil",
@@ -75,7 +75,7 @@
                     "description": "Development web sites and systems using PHP(Laravel), VueJS, code review, Git, MySQL, Docker."
                 },
                 "uol": {
-                    "company": "UolEdtech",
+                    "company": "UolEdtech, São Paulo - SP, Brazil",
                     "position": "Intermediate Software Engineer",
                     "period": "2018 - 2021  ",
                     "description": "Development web sites and systems using technologies like PHP(Laravel), VueJS, Angular, React Native, javascript, MySQL, Watson, Git, code review."
