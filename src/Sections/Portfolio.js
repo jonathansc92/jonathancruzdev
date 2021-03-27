@@ -53,7 +53,7 @@ class Portfolio extends React.Component {
                 />
                 <PortfolioComponent
                   filter="react"
-                  link="#"
+                  link="https://github.com/jonathansc92/jonathancruzdev"
                   image={sitePortfolio}
                   title="This Web Site"
                 />
