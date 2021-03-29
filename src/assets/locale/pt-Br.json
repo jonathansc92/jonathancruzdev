@@ -23,7 +23,7 @@
         "titleAge": "Idade",
         "titleCity": "Cidade",
         "city": "Porto Alegre - RS, Brasil",
-        "description": "Olá, meu nome é Jonathan e sou <b> desenvolvedor Full Stack</b>, tenho mais de 4 anos de experiência em desenvolvimento. Sempre explorando novas tecnologias, explorando seus potenciais no desenvolvimento de produtos. Sou uma pessoa que aceita sempre desafios, explorando a qualidade do trabalho. No meu tempo livre, geralmente vou para a academia ou estou estudando um novo idioma ou uma nova tecnologia. Eu desenvolvi este site usando <b> React </b>. Se desejar ver meus códigos, convido você a visitar meu <a href='https://github.com/jonathansc92' target='_blank'> github </a>.",
+        "description": "Olá, meu nome é Jonathan e sou <b> desenvolvedor Full Stack</b>, tenho mais de 4 anos de experiência em desenvolvimento. Sempre explorando novas tecnologias, explorando seus potenciais no desenvolvimento de produtos. Sou uma pessoa que aceita sempre desafios, explorando a qualidade do trabalho. No meu tempo livre, geralmente vou para a academia ou estou estudando um novo idioma ou uma nova tecnologia. Eu desenvolvi este site usando <b> React</b>. Se desejar ver meus códigos, convido você a visitar meu <a href='https://github.com/jonathansc92' target='_blank'> github</a>.",
         "role": "Desenvolvedor Web"
     },
     "resume": {
@@ -34,7 +34,7 @@
                 "period": "2015 - 2018"
             },
             "graduate": {
-                "title": "MBA - Técnologia para Negócios: AI, Data Science e Big Data",
+                "title": "MBA - Tecnologia para Negócios: AI, Data Science e Big Data",
                 "school": "PUCRS, Porto Alegre - RS",
                 "period": "2019 - 2020"
             }
